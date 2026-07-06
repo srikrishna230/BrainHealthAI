@@ -1,0 +1,40 @@
+/* Main Background */
+.stApp {
+    background-color: #0f172a;
+}
+
+/* Cards */
+div[data-testid="stMetric"] {
+    background: #1e293b;
+    padding: 18px;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+/* Buttons */
+.stButton>button {
+    width: 100%;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+    height: 45px;
+    border: none;
+}
+
+.stButton>button:hover {
+    background: #1d4ed8;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 10px;
+}
